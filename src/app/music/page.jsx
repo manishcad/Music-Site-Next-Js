@@ -9,7 +9,7 @@ const MusicAlbums = () => {
     const router = useRouter();
 
     useEffect(() => {
-        fetch("http://localhost:3000/api/albums/")
+        fetch("https://67c2a046471ff9000880e4bf--music-crazy.netlify.app/api/albums/")
             .then(response => response.json())
             .then(data => {
                 console.log(data, "This is data");
